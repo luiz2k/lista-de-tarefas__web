@@ -1,5 +1,5 @@
 const refreshToken = async () => {
-  const baseURL = 'http://localhost:3001';
+  const baseURL = process.env.NEXT_PUBLIC_API_URL;
 
   const token = await JSON.parse(localStorage.getItem('token') as string);
 
