@@ -1,6 +1,6 @@
 # Lista de Tarefas
 
-![Imagem do projeto](./public/demonstracao-do-projeto.gif)
+![Imagem do projeto](./public/demonstracao-do-projeto.png)
 
 ### [Visitar Projeto](https://listadetarefas-luiz2k.vercel.app/)
 #### Acesse também o repositório do [Back-end](https://github.com/luiz2k/lista-de-tarefas__back-end)
