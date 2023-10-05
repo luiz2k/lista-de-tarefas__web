@@ -8,7 +8,7 @@
 ---
 
 ## 📝 Sobre
-Meu primeiro projeto full stack, onde eu refaço um dos meus primeiros projetos, [Lista de Tarefas](https://listadetarefasv1-luiz2k.vercel.app/). A ideia desse projeto é manter todas as anotações do usuário em um banco de dados, evitando assim possiveis perda das anotações.
+Meu primeiro projeto full stack, onde eu refaço um dos meus primeiros projetos, [Lista de Tarefas](https://listadetarefasv1-luiz2k.vercel.app/). A ideia desse projeto é manter todas as anotações do usuário em um banco de dados, evitando assim possíveis perda das anotações. Nesse projeto criado um sistema de login e registro, onde cada usuário poderá gerenciar suas próprias anotações. O usuário quando logado poderá acessar o seu perfil e alterar todos os seus dados, ou até mesmo excluir a sua conta.
 
 ### Funcionalidades
 - **Registro e Login:** Foi desenvolvido um sistema de registro e login, possibilitando assim cada usuário ter suas própias anotações.
