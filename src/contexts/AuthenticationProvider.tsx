@@ -7,6 +7,8 @@ import { createContextType } from '@/@types/contexts/AuthenticationProvider';
 
 import { useRouter } from 'next/navigation';
 
+import { AiOutlineLoading } from 'react-icons/ai';
+
 export const AuthenticationContext = createContext<createContextType>({
   username: '',
   getUsername: () => Promise.resolve(),
@@ -38,6 +40,9 @@ export default function AuthenticationProvider({
   return (
     <AuthenticationContext.Provider value={{ username, getUsername }}>
       {username && children}
+      {!username && (
+        <AiOutlineLoading className="m-auto mt-60 animate-spin text-3xl text-color3 bgBreakpoint:text-color1" />
+      )}
     </AuthenticationContext.Provider>
   );
 }
